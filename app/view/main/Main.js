@@ -135,19 +135,10 @@ Ext.define('Desktopapp.view.main.Main', {
             store: { type: 'details' }
         }*/
     }, {
+        iconCls: 'fa-file-text',
         xtype: 'textfield',
         title: 'heel',
             fieldLabel: 'My label',
             fieldStyle: 'text-align: right;'
-    },config: {
-        items: [{
-            title: 'Home'
-             ,html: 'This is the Home Page'
-
-        },{
-            title: 'Contacts'
-             ,html: 'About Us'
- 
-        }]
     }]
 });
